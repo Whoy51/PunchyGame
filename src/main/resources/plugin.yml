@@ -1,0 +1,10 @@
+name: PunchyGame
+version: '${version}'
+main: me.wesleyh.punchygame.PunchyGame
+api-version: 1.19
+commands:
+  game:
+    description: game
+    aliases: [g]
+depend:
+  - Multiverse-Core
